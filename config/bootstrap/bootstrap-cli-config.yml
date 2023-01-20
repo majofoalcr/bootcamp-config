@@ -93,9 +93,9 @@ bootstrap:
               - node-name: uc:001:oee
                 description: Data from SAP # HINT
                 shared-access:
-                  read:
-                    - node-name: src:001:sap
-                    - node-name: src:002:opcua
+                    read:
+                        - node-name: src:001:sap
+                        - node-name: src:002:opcua
 # de-facto standards for CDF CogniteClient and logger configuration.
 # Following the same parameter structure as the 'Cognite Python Extractor-Utilities'
 # and 'Cognite DB Extractor' configuration.
