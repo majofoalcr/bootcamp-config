@@ -8,7 +8,6 @@ bootstrap:
     # allowed values are parsed case-insensitive: [true|yes|YES|..] or [false|no|NO|..]
     # not as strings in quotes "yes" or 'yes'
 
-
     # default and recommended is: true
         with-raw-capability: true
     # The default and recommended value is: false
@@ -19,9 +18,7 @@ bootstrap:
     # naming of Groups, Datasets and RAWDBs only.
     # All given feature values are reflecting the default values,
     # to support a smooth v1 migration.
-    #
     # Recommended values for a new v2-project are given as comments!
-
 
     # default is: allprojects
     #   recommended is shorter: 'all'
