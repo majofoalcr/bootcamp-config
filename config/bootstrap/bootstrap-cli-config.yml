@@ -41,7 +41,7 @@ bootstrap:
         rawdb-suffix: db
 
     # Suffix added to all space names. The recommended value is spc. Defaults to space
-        space-suffix: spc
+    # space-suffix: spc
 
     # default is" ['state']
     #   meant for separating the statestores from extractors from ingested data
